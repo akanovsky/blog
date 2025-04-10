@@ -26,6 +26,7 @@ SECRET_KEY = 'django-insecure-p76e+e9+fv2@@c%kokpnco2k(v5mq-hpiz9dtn*-x#)=anq3u#
 DEBUG = True
 
 ALLOWED_HOSTS = []
+SITE_ID = 1
 
 
 # Application definition
@@ -36,6 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
+    'django.contrib.sites',
+    'django.contrib.sitemaps',
     'django.contrib.staticfiles',
     'blog.apps.BlogConfig',
     'taggit',
